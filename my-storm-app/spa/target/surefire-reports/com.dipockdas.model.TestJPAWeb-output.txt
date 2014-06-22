@@ -1,0 +1,741 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/dipockdas/.m2/repository/ch/qos/logback/logback-classic/0.9.26/logback-classic-0.9.26.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/dipockdas/.m2/repository/org/slf4j/slf4j-log4j12/1.5.8/slf4j-log4j12-1.5.8.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+23:47:21.721 [main] INFO  o.hibernate.cfg.annotations.Version - Hibernate Annotations 3.4.0.GA
+23:47:21.741 [main] INFO  org.hibernate.cfg.Environment - Hibernate 3.3.0.SP1
+23:47:21.745 [main] INFO  org.hibernate.cfg.Environment - hibernate.properties not found
+23:47:21.748 [main] INFO  org.hibernate.cfg.Environment - Bytecode provider name : javassist
+23:47:21.753 [main] INFO  org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+23:47:21.802 [main] INFO  o.h.annotations.common.Version - Hibernate Commons Annotations 3.1.0.GA
+23:47:21.805 [main] INFO  org.hibernate.ejb.Version - Hibernate EntityManager 3.4.0.GA
+23:47:21.820 [main] DEBUG org.hibernate.ejb.Ejb3Configuration - Look up for persistence unit: jpaweb
+23:47:21.888 [main] DEBUG org.hibernate.ejb.Ejb3Configuration - Detect class: true; detect hbm: true
+23:47:21.894 [main] DEBUG o.h.ejb.packaging.AbstractJarVisitor - Searching mapped entities in jar/par: file:/Users/dipockdas/storm/storm-app/my-storm-app/spa/target/classes/
+23:47:21.895 [main] DEBUG o.h.ejb.packaging.AbstractJarVisitor - Filtering: com.dipockdas.model.AU$$anon$1
+23:47:21.925 [main] DEBUG o.h.ejb.packaging.AbstractJarVisitor - Filtering: com.dipockdas.model.AU$
+23:47:21.926 [main] DEBUG o.h.ejb.packaging.AbstractJarVisitor - Filtering: com.dipockdas.model.AU$AUD
+23:47:21.927 [main] DEBUG o.h.ejb.packaging.AbstractJarVisitor - Filtering: com.dipockdas.model.AU
+23:47:21.940 [main] DEBUG o.h.ejb.packaging.AbstractJarVisitor - Filtering: com.dipockdas.model.AUDUserType
+23:47:21.941 [main] DEBUG o.h.ejb.packaging.AbstractJarVisitor - Filtering: com.dipockdas.model.Author
+23:47:21.942 [main] DEBUG o.h.ejb.packaging.AbstractJarVisitor - Java element filter matched for com.dipockdas.model.Author
+23:47:21.942 [main] DEBUG o.h.ejb.packaging.AbstractJarVisitor - Filtering: com.dipockdas.model.Book
+23:47:21.943 [main] DEBUG o.h.ejb.packaging.AbstractJarVisitor - Java element filter matched for com.dipockdas.model.Book
+23:47:21.944 [main] DEBUG o.h.ejb.packaging.AbstractJarVisitor - Filtering: com.dipockdas.model.CurrencyUserType
+23:47:21.946 [main] DEBUG o.h.ejb.packaging.AbstractJarVisitor - Filtering: com.dipockdas.model.CurrencyZone$AbstractCurrency
+23:47:21.948 [main] DEBUG o.h.ejb.packaging.AbstractJarVisitor - Filtering: com.dipockdas.model.CurrencyZone
+23:47:21.949 [main] DEBUG o.h.ejb.packaging.AbstractJarVisitor - Filtering: com.dipockdas.model.Enumv$$anonfun$getNameDescriptionList$1
+23:47:21.950 [main] DEBUG o.h.ejb.packaging.AbstractJarVisitor - Filtering: com.dipockdas.model.Enumv$class
+23:47:21.972 [main] DEBUG o.h.ejb.packaging.AbstractJarVisitor - Filtering: com.dipockdas.model.Enumv
+23:47:21.974 [main] DEBUG o.h.ejb.packaging.AbstractJarVisitor - Filtering: com.dipockdas.model.EnumvType$$anonfun$nullSafeGet$1
+23:47:21.974 [main] DEBUG o.h.ejb.packaging.AbstractJarVisitor - Filtering: com.dipockdas.model.EnumvType
+23:47:21.976 [main] DEBUG o.h.ejb.packaging.AbstractJarVisitor - Filtering: com.dipockdas.model.Genre$
+23:47:21.977 [main] DEBUG o.h.ejb.packaging.AbstractJarVisitor - Filtering: com.dipockdas.model.Genre
+23:47:21.979 [main] DEBUG o.h.ejb.packaging.AbstractJarVisitor - Filtering: com.dipockdas.model.GenreType
+23:47:21.980 [main] DEBUG o.h.ejb.packaging.AbstractJarVisitor - File Filter matched for META-INF/orm.xml
+23:47:21.981 [main] DEBUG org.hibernate.ejb.Ejb3Configuration - Detect class: true; detect hbm: true
+23:47:21.982 [main] DEBUG org.hibernate.ejb.Ejb3Configuration - Creating Factory: jpaweb
+23:47:22.013 [main] DEBUG org.hibernate.util.DTDEntityResolver - trying to resolve system-id [file:///Users/dipockdas/storm/storm-app/my-storm-app/spa/orm_1_0.xsd]
+23:47:22.014 [main] DEBUG o.h.cfg.EJB3DTDEntityResolver - recognized EJB3 ORM namespace; attempting to resolve on classpath under org/hibernate/ejb
+23:47:22.014 [main] DEBUG o.h.cfg.EJB3DTDEntityResolver - located [file:///Users/dipockdas/storm/storm-app/my-storm-app/spa/orm_1_0.xsd] in classpath
+23:47:22.118 [main] DEBUG o.h.c.a.reflection.XMLContext - Adding XML overriding information for com.dipockdas.model.Book
+23:47:22.118 [main] DEBUG o.h.c.a.reflection.XMLContext - Adding XML overriding information for listener: null
+23:47:22.118 [main] DEBUG o.h.c.a.reflection.XMLContext - Adding XML overriding information for com.dipockdas.model.Author
+23:47:22.118 [main] DEBUG o.h.c.a.reflection.XMLContext - Adding XML overriding information for listener: null
+23:47:22.121 [main] DEBUG o.h.cfg.AnnotationConfiguration - Execute first pass mapping processing
+23:47:22.175 [main] DEBUG o.h.cfg.AnnotationConfiguration - Process hbm files
+23:47:22.176 [main] DEBUG o.h.cfg.AnnotationConfiguration - Process annotated classes
+23:47:22.178 [main] INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.dipockdas.model.Author
+23:47:22.184 [main] INFO  o.h.cfg.annotations.QueryBinder - Binding Named query: findAllAuthors => from Author a order by a.name
+23:47:22.189 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column DTYPE. Unique false. Nullable false.
+23:47:22.197 [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name Author
+23:47:22.201 [main] INFO  o.h.cfg.annotations.EntityBinder - Bind entity com.dipockdas.model.Author on table Author
+23:47:22.205 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Processing com.dipockdas.model.Author property annotation
+23:47:22.209 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Processing com.dipockdas.model.Author field annotation
+23:47:22.231 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Processing annotations of com.dipockdas.model.Author.id
+23:47:22.233 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column id. Unique false. Nullable false.
+23:47:22.234 [main] DEBUG org.hibernate.cfg.AnnotationBinder - id is an id
+23:47:22.236 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id
+23:47:22.238 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id
+23:47:22.240 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Bind @Id on id
+23:47:22.241 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Processing annotations of com.dipockdas.model.Author.books
+23:47:22.244 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column null. Unique false. Nullable true.
+23:47:22.245 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column books. Unique false. Nullable true.
+23:47:22.246 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column null. Unique false. Nullable true.
+23:47:22.258 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column element. Unique false. Nullable true.
+23:47:22.259 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column mapkey. Unique false. Nullable true.
+23:47:22.259 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column null. Unique false. Nullable true.
+23:47:22.260 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column null. Unique false. Nullable false.
+23:47:22.261 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column null. Unique false. Nullable false.
+23:47:22.263 [main] DEBUG o.h.cfg.annotations.CollectionBinder - Collection role: com.dipockdas.model.Author.books
+23:47:22.265 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property books
+23:47:22.266 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Processing annotations of com.dipockdas.model.Author.name
+23:47:22.266 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column name. Unique true. Nullable false.
+23:47:22.266 [main] DEBUG o.h.cfg.annotations.PropertyBinder - binding property name with lazy=false
+23:47:22.266 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for name
+23:47:22.267 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property name
+23:47:22.268 [main] INFO  org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.dipockdas.model.Book
+23:47:22.269 [main] INFO  o.h.cfg.annotations.QueryBinder - Binding Named query: findBooksByAuthor => from Book b where b.author.id = :id order by b.title
+23:47:22.269 [main] INFO  o.h.cfg.annotations.QueryBinder - Binding Named query: findBooksByDate => from Book b where b.published between :startDate and :endDate
+23:47:22.269 [main] INFO  o.h.cfg.annotations.QueryBinder - Binding Named query: findBooksByTitle => from Book b where lower(b.title) like :title order by b.title
+23:47:22.269 [main] INFO  o.h.cfg.annotations.QueryBinder - Binding Named query: findAllBooks => from Book b order by b.title
+23:47:22.269 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column DTYPE. Unique false. Nullable false.
+23:47:22.270 [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name Book
+23:47:22.270 [main] INFO  o.h.cfg.annotations.EntityBinder - Bind entity com.dipockdas.model.Book on table Book
+23:47:22.270 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Processing com.dipockdas.model.Book property annotation
+23:47:22.271 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Processing com.dipockdas.model.Book field annotation
+23:47:22.282 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Processing annotations of com.dipockdas.model.Book.id
+23:47:22.282 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column id. Unique false. Nullable false.
+23:47:22.282 [main] DEBUG org.hibernate.cfg.AnnotationBinder - id is an id
+23:47:22.283 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id
+23:47:22.283 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id
+23:47:22.283 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Bind @Id on id
+23:47:22.283 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Processing annotations of com.dipockdas.model.Book.author
+23:47:22.283 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column null. Unique false. Nullable true.
+23:47:22.283 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column author. Unique false. Nullable true.
+23:47:22.285 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property author
+23:47:22.285 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Processing annotations of com.dipockdas.model.Book.genre
+23:47:22.285 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column genre. Unique false. Nullable true.
+23:47:22.286 [main] DEBUG o.h.cfg.annotations.PropertyBinder - binding property genre with lazy=false
+23:47:22.286 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for genre
+23:47:22.286 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property genre
+23:47:22.286 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Processing annotations of com.dipockdas.model.Book.published
+23:47:22.286 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column published. Unique false. Nullable true.
+23:47:22.286 [main] DEBUG o.h.cfg.annotations.PropertyBinder - binding property published with lazy=false
+23:47:22.290 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for published
+23:47:22.291 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property published
+23:47:22.291 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Processing annotations of com.dipockdas.model.Book.title
+23:47:22.292 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column title. Unique true. Nullable false.
+23:47:22.292 [main] DEBUG o.h.cfg.annotations.PropertyBinder - binding property title with lazy=false
+23:47:22.293 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for title
+23:47:22.293 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property title
+23:47:22.293 [main] DEBUG o.h.cfg.AnnotationConfiguration - processing fk mappings (*ToOne and JoinedSubclass)
+23:47:22.339 [main] DEBUG org.hibernate.cfg.Configuration - processing extends queue
+23:47:22.340 [main] DEBUG org.hibernate.cfg.Configuration - processing collection mappings
+23:47:22.340 [main] DEBUG o.hibernate.cfg.CollectionSecondPass - Second pass for collection: com.dipockdas.model.Author.books
+23:47:22.341 [main] DEBUG o.h.cfg.annotations.CollectionBinder - Binding a OneToMany: com.dipockdas.model.Author.books through a foreign key
+23:47:22.342 [main] INFO  o.h.cfg.annotations.CollectionBinder - Mapping collection: com.dipockdas.model.Author.books -> Book
+23:47:22.343 [main] DEBUG o.h.cfg.annotations.TableBinder - Retrieving property com.dipockdas.model.Book.author
+23:47:22.343 [main] DEBUG o.hibernate.cfg.CollectionSecondPass - Mapped collection key: author_id, one-to-many: com.dipockdas.model.Book
+23:47:22.344 [main] DEBUG org.hibernate.cfg.Configuration - processing native query and ResultSetMapping mappings
+23:47:22.344 [main] DEBUG org.hibernate.cfg.Configuration - processing association property references
+23:47:22.344 [main] DEBUG org.hibernate.cfg.Configuration - processing foreign key constraints
+23:47:22.344 [main] DEBUG org.hibernate.cfg.Configuration - resolving reference to class: com.dipockdas.model.Author
+23:47:22.345 [main] INFO  o.h.cfg.AnnotationConfiguration - Hibernate Validator not found: ignoring
+23:47:22.360 [main] DEBUG org.hibernate.ejb.util.NamingHelper - No JNDI name configured for binding Ejb3Configuration
+23:47:22.361 [main] DEBUG o.h.cfg.AnnotationConfiguration - Validator not present in classpath, ignoring event listener registration
+23:47:22.363 [main] DEBUG o.h.c.s.HibernateSearchEventListenerRegister - Search not present in classpath, ignoring event listener registration.
+23:47:22.363 [main] INFO  o.h.c.s.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+23:47:22.364 [main] DEBUG org.hibernate.cfg.Configuration - Preparing to build session factory with filters : {}
+23:47:22.364 [main] DEBUG o.h.cfg.AnnotationConfiguration - Execute first pass mapping processing
+23:47:22.364 [main] DEBUG o.h.cfg.AnnotationConfiguration - Process hbm files
+23:47:22.364 [main] DEBUG o.h.cfg.AnnotationConfiguration - Process annotated classes
+23:47:22.364 [main] DEBUG o.h.cfg.AnnotationConfiguration - processing fk mappings (*ToOne and JoinedSubclass)
+23:47:22.364 [main] DEBUG org.hibernate.cfg.Configuration - processing extends queue
+23:47:22.364 [main] DEBUG org.hibernate.cfg.Configuration - processing collection mappings
+23:47:22.364 [main] DEBUG org.hibernate.cfg.Configuration - processing native query and ResultSetMapping mappings
+23:47:22.364 [main] DEBUG org.hibernate.cfg.Configuration - processing association property references
+23:47:22.364 [main] DEBUG org.hibernate.cfg.Configuration - processing foreign key constraints
+23:47:22.364 [main] DEBUG org.hibernate.cfg.Configuration - resolving reference to class: com.dipockdas.model.Author
+23:47:22.568 [main] INFO  o.h.c.DriverManagerConnectionProvider - Using Hibernate built-in connection pool (not for production use!)
+23:47:22.568 [main] INFO  o.h.c.DriverManagerConnectionProvider - Hibernate connection pool size: 20
+23:47:22.568 [main] INFO  o.h.c.DriverManagerConnectionProvider - autocommit mode: true
+23:47:22.980 [main] INFO  o.h.c.DriverManagerConnectionProvider - using driver: org.apache.derby.jdbc.EmbeddedDriver at URL: jdbc:derby:lift_example;create=true
+23:47:22.980 [main] INFO  o.h.c.DriverManagerConnectionProvider - connection properties: {autocommit=true, release_mode=auto}
+23:47:22.980 [main] DEBUG o.h.c.DriverManagerConnectionProvider - opening new JDBC connection
+23:47:23.643 [main] DEBUG o.h.c.DriverManagerConnectionProvider - created connection to: jdbc:derby:lift_example;create=true, Isolation Level: 2
+23:47:23.648 [main] INFO  org.hibernate.cfg.SettingsFactory - RDBMS: Apache Derby, version: 10.4.2.0 - (689064)
+23:47:23.648 [main] INFO  org.hibernate.cfg.SettingsFactory - JDBC driver: Apache Derby Embedded JDBC Driver, version: 10.4.2.0 - (689064)
+23:47:23.661 [main] INFO  org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.DerbyDialect
+23:47:23.668 [main] INFO  o.h.t.TransactionFactoryFactory - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+23:47:23.669 [main] INFO  o.h.t.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+23:47:23.669 [main] INFO  org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+23:47:23.669 [main] INFO  org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+23:47:23.670 [main] INFO  org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+23:47:23.670 [main] DEBUG org.hibernate.cfg.SettingsFactory - Wrap result sets: disabled
+23:47:23.670 [main] INFO  org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): disabled
+23:47:23.670 [main] INFO  org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+23:47:23.671 [main] INFO  org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 3
+23:47:23.671 [main] INFO  org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+23:47:23.671 [main] INFO  org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+23:47:23.671 [main] INFO  org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+23:47:23.671 [main] INFO  org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+23:47:23.671 [main] INFO  org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+23:47:23.674 [main] INFO  o.h.h.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+23:47:23.674 [main] INFO  org.hibernate.cfg.SettingsFactory - Query language substitutions: {}
+23:47:23.674 [main] INFO  org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: enabled
+23:47:23.675 [main] INFO  org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+23:47:23.675 [main] INFO  org.hibernate.cfg.SettingsFactory - Query cache: disabled
+23:47:23.675 [main] INFO  org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+23:47:23.675 [main] INFO  org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+23:47:23.675 [main] INFO  org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+23:47:23.679 [main] INFO  org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+23:47:23.680 [main] INFO  org.hibernate.cfg.SettingsFactory - Statistics: disabled
+23:47:23.681 [main] INFO  org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+23:47:23.682 [main] INFO  org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+23:47:23.682 [main] INFO  org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+23:47:23.723 [main] INFO  o.hibernate.impl.SessionFactoryImpl - building session factory
+23:47:23.725 [main] DEBUG o.hibernate.impl.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+23:47:23.725 [main] DEBUG o.hibernate.impl.SessionFactoryImpl - instantiating session factory with properties: {java.vendor=Apple Inc., localRepository=/Users/dipockdas/.m2/repository, sun.java.launcher=SUN_STANDARD, hibernate.connection.url=jdbc:derby:lift_example;create=true, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, hibernate.ejb.discard_pc_on_close=false, hibernate.transaction.flush_before_completion=false, os.name=Mac OS X, sun.boot.class.path=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar, java.vm.specification.vendor=Sun Microsystems Inc., java.runtime.version=1.6.0_65-b14-462-11M4609, hibernate.connection.autocommit=true, user.name=dipockdas, awt.nativeDoubleBuffering=true, hibernate.connection.release_mode=auto, user.language=en, sun.boot.library.path=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries, java.version=1.6.0_65, user.timezone=America/Los_Angeles, sun.arch.data.model=64, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, java.endorsed.dirs=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed, sun.cpu.isalist=, sun.jnu.encoding=MacRoman, file.encoding.pkg=sun.io, file.separator=/, java.specification.name=Java Platform API Specification, java.class.version=50.0, user.country=US, java.home=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home, java.vm.info=mixed mode, os.version=10.9.3, hibernate.transaction.factory_class=org.hibernate.transaction.JDBCTransactionFactory, surefire.real.class.path=/Users/dipockdas/storm/storm-app/my-storm-app/spa/target/surefire/surefirebooter3910755004236796428.jar, hibernate.query.jpaql_strict_compliance=true, path.separator=:, java.vm.version=20.65-b04-462, hibernate.max_fetch_depth=3, java.awt.printerjob=apple.awt.CPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=apple.awt.CToolkit, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, user.home=/Users/dipockdas, java.specification.vendor=Sun Microsystems Inc., hibernate.hbm2ddl.auto=update, java.library.path=.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, java.vendor.url=http://www.apple.com/, hibernate.connection.driver_class=org.apache.derby.jdbc.EmbeddedDriver, java.vm.vendor=Apple Inc., gopherProxySet=false, hibernate.dialect=org.hibernate.dialect.DerbyDialect, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=/Users/dipockdas/storm/storm-app/my-storm-app/spa/target/surefire/surefirebooter3910755004236796428.jar /Users/dipockdas/storm/storm-app/my-storm-app/spa/target/surefire/surefire1372890939711623456tmp /Users/dipockdas/storm/storm-app/my-storm-app/spa/target/surefire/surefire_02574884870443973313tmp, java.class.path=/Users/dipockdas/storm/storm-app/my-storm-app/spa/target/test-classes:/Users/dipockdas/storm/storm-app/my-storm-app/spa/target/classes:/Users/dipockdas/.m2/repository/geronimo-spec/geronimo-spec-ejb/2.1-rc4/geronimo-spec-ejb-2.1-rc4.jar:/Users/dipockdas/.m2/repository/org/hibernate/hibernate-entitymanager/3.4.0.GA/hibernate-entitymanager-3.4.0.GA.jar:/Users/dipockdas/.m2/repository/org/hibernate/ejb3-persistence/1.0.2.GA/ejb3-persistence-1.0.2.GA.jar:/Users/dipockdas/.m2/repository/org/hibernate/hibernate-commons-annotations/3.1.0.GA/hibernate-commons-annotations-3.1.0.GA.jar:/Users/dipockdas/.m2/repository/org/hibernate/hibernate-annotations/3.4.0.GA/hibernate-annotations-3.4.0.GA.jar:/Users/dipockdas/.m2/repository/org/hibernate/hibernate-core/3.3.0.SP1/hibernate-core-3.3.0.SP1.jar:/Users/dipockdas/.m2/repository/antlr/antlr/2.7.6/antlr-2.7.6.jar:/Users/dipockdas/.m2/repository/commons-collections/commons-collections/3.1/commons-collections-3.1.jar:/Users/dipockdas/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/dipockdas/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/dipockdas/.m2/repository/javassist/javassist/3.4.GA/javassist-3.4.GA.jar:/Users/dipockdas/.m2/repository/geronimo-spec/geronimo-spec-jta/1.0.1B-rc4/geronimo-spec-jta-1.0.1B-rc4.jar:/Users/dipockdas/.m2/repository/org/scala-lang/scala-library/2.8.1/scala-library-2.8.1.jar:/Users/dipockdas/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar:/Users/dipockdas/.m2/repository/ch/qos/logback/logback-classic/0.9.26/logback-classic-0.9.26.jar:/Users/dipockdas/.m2/repository/ch/qos/logback/logback-core/0.9.26/logback-core-0.9.26.jar:/Users/dipockdas/.m2/repository/org/scala-lang/scala-compiler/2.8.1/scala-compiler-2.8.1.jar:/Users/dipockdas/.m2/repository/org/apache/derby/derby/10.4.2.0/derby-10.4.2.0.jar:/Users/dipockdas/.m2/repository/junit/junit/4.7/junit-4.7.jar:/Users/dipockdas/.m2/repository/storm/storm/0.8.2/storm-0.8.2.jar:/Users/dipockdas/.m2/repository/org/clojure/clojure/1.4.0/clojure-1.4.0.jar:/Users/dipockdas/.m2/repository/commons-io/commons-io/1.4/commons-io-1.4.jar:/Users/dipockdas/.m2/repository/org/apache/commons/commons-exec/1.1/commons-exec-1.1.jar:/Users/dipockdas/.m2/repository/storm/libthrift7/0.7.0/libthrift7-0.7.0.jar:/Users/dipockdas/.m2/repository/commons-lang/commons-lang/2.5/commons-lang-2.5.jar:/Users/dipockdas/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/Users/dipockdas/.m2/repository/clj-time/clj-time/0.4.1/clj-time-0.4.1.jar:/Users/dipockdas/.m2/repository/joda-time/joda-time/2.0/joda-time-2.0.jar:/Users/dipockdas/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:/Users/dipockdas/.m2/repository/com/netflix/curator/curator-framework/1.0.1/curator-framework-1.0.1.jar:/Users/dipockdas/.m2/repository/com/netflix/curator/curator-client/1.0.1/curator-client-1.0.1.jar:/Users/dipockdas/.m2/repository/org/apache/zookeeper/zookeeper/3.3.3/zookeeper-3.3.3.jar:/Users/dipockdas/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/Users/dipockdas/.m2/repository/backtype/jzmq/2.1.0/jzmq-2.1.0.jar:/Users/dipockdas/.m2/repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar:/Users/dipockdas/.m2/repository/compojure/compojure/1.1.3/compojure-1.1.3.jar:/Users/dipockdas/.m2/repository/org/clojure/core.incubator/0.1.0/core.incubator-0.1.0.jar:/Users/dipockdas/.m2/repository/org/clojure/tools.macro/0.1.0/tools.macro-0.1.0.jar:/Users/dipockdas/.m2/repository/clout/clout/1.0.1/clout-1.0.1.jar:/Users/dipockdas/.m2/repository/ring/ring-core/1.1.5/ring-core-1.1.5.jar:/Users/dipockdas/.m2/repository/commons-fileupload/commons-fileupload/1.2.1/commons-fileupload-1.2.1.jar:/Users/dipockdas/.m2/repository/hiccup/hiccup/0.3.6/hiccup-0.3.6.jar:/Users/dipockdas/.m2/repository/ring/ring-jetty-adapter/0.3.11/ring-jetty-adapter-0.3.11.jar:/Users/dipockdas/.m2/repository/ring/ring-servlet/0.3.11/ring-servlet-0.3.11.jar:/Users/dipockdas/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar:/Users/dipockdas/.m2/repository/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar:/Users/dipockdas/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar:/Users/dipockdas/.m2/repository/org/clojure/tools.logging/0.2.3/tools.logging-0.2.3.jar:/Users/dipockdas/.m2/repository/org/clojure/math.numeric-tower/0.0.1/math.numeric-tower-0.0.1.jar:/Users/dipockdas/.m2/repository/org/slf4j/slf4j-log4j12/1.5.8/slf4j-log4j12-1.5.8.jar:/Users/dipockdas/.m2/repository/storm/carbonite/1.5.0/carbonite-1.5.0.jar:/Users/dipockdas/.m2/repository/com/esotericsoftware/kryo/kryo/2.17/kryo-2.17.jar:/Users/dipockdas/.m2/repository/com/esotericsoftware/reflectasm/reflectasm/1.07/reflectasm-1.07-shaded.jar:/Users/dipockdas/.m2/repository/org/ow2/asm/asm/4.0/asm-4.0.jar:/Users/dipockdas/.m2/repository/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar:/Users/dipockdas/.m2/repository/org/objenesis/objenesis/1.2/objenesis-1.2.jar:/Users/dipockdas/.m2/repository/org/yaml/snakeyaml/1.9/snakeyaml-1.9.jar:/Users/dipockdas/.m2/repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar:/Users/dipockdas/.m2/repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar:/Users/dipockdas/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/dipockdas/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar:/Users/dipockdas/.m2/repository/storm/tools.cli/0.2.2/tools.cli-0.2.2.jar:/Users/dipockdas/.m2/repository/com/googlecode/disruptor/disruptor/2.10.1/disruptor-2.10.1.jar:/Users/dipockdas/.m2/repository/storm/jgrapht/0.8.3/jgrapht-0.8.3.jar:/Users/dipockdas/.m2/repository/com/google/guava/guava/13.0/guava-13.0.jar:, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.0, sun.cpu.endian=little, sun.os.patch.level=unknown, surefire.test.class.path=/Users/dipockdas/storm/storm-app/my-storm-app/spa/target/test-classes:/Users/dipockdas/storm/storm-app/my-storm-app/spa/target/classes:/Users/dipockdas/.m2/repository/geronimo-spec/geronimo-spec-ejb/2.1-rc4/geronimo-spec-ejb-2.1-rc4.jar:/Users/dipockdas/.m2/repository/org/hibernate/hibernate-entitymanager/3.4.0.GA/hibernate-entitymanager-3.4.0.GA.jar:/Users/dipockdas/.m2/repository/org/hibernate/ejb3-persistence/1.0.2.GA/ejb3-persistence-1.0.2.GA.jar:/Users/dipockdas/.m2/repository/org/hibernate/hibernate-commons-annotations/3.1.0.GA/hibernate-commons-annotations-3.1.0.GA.jar:/Users/dipockdas/.m2/repository/org/hibernate/hibernate-annotations/3.4.0.GA/hibernate-annotations-3.4.0.GA.jar:/Users/dipockdas/.m2/repository/org/hibernate/hibernate-core/3.3.0.SP1/hibernate-core-3.3.0.SP1.jar:/Users/dipockdas/.m2/repository/antlr/antlr/2.7.6/antlr-2.7.6.jar:/Users/dipockdas/.m2/repository/commons-collections/commons-collections/3.1/commons-collections-3.1.jar:/Users/dipockdas/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/dipockdas/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/dipockdas/.m2/repository/javassist/javassist/3.4.GA/javassist-3.4.GA.jar:/Users/dipockdas/.m2/repository/geronimo-spec/geronimo-spec-jta/1.0.1B-rc4/geronimo-spec-jta-1.0.1B-rc4.jar:/Users/dipockdas/.m2/repository/org/scala-lang/scala-library/2.8.1/scala-library-2.8.1.jar:/Users/dipockdas/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar:/Users/dipockdas/.m2/repository/ch/qos/logback/logback-classic/0.9.26/logback-classic-0.9.26.jar:/Users/dipockdas/.m2/repository/ch/qos/logback/logback-core/0.9.26/logback-core-0.9.26.jar:/Users/dipockdas/.m2/repository/org/scala-lang/scala-compiler/2.8.1/scala-compiler-2.8.1.jar:/Users/dipockdas/.m2/repository/org/apache/derby/derby/10.4.2.0/derby-10.4.2.0.jar:/Users/dipockdas/.m2/repository/junit/junit/4.7/junit-4.7.jar:/Users/dipockdas/.m2/repository/storm/storm/0.8.2/storm-0.8.2.jar:/Users/dipockdas/.m2/repository/org/clojure/clojure/1.4.0/clojure-1.4.0.jar:/Users/dipockdas/.m2/repository/commons-io/commons-io/1.4/commons-io-1.4.jar:/Users/dipockdas/.m2/repository/org/apache/commons/commons-exec/1.1/commons-exec-1.1.jar:/Users/dipockdas/.m2/repository/storm/libthrift7/0.7.0/libthrift7-0.7.0.jar:/Users/dipockdas/.m2/repository/commons-lang/commons-lang/2.5/commons-lang-2.5.jar:/Users/dipockdas/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/Users/dipockdas/.m2/repository/clj-time/clj-time/0.4.1/clj-time-0.4.1.jar:/Users/dipockdas/.m2/repository/joda-time/joda-time/2.0/joda-time-2.0.jar:/Users/dipockdas/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:/Users/dipockdas/.m2/repository/com/netflix/curator/curator-framework/1.0.1/curator-framework-1.0.1.jar:/Users/dipockdas/.m2/repository/com/netflix/curator/curator-client/1.0.1/curator-client-1.0.1.jar:/Users/dipockdas/.m2/repository/org/apache/zookeeper/zookeeper/3.3.3/zookeeper-3.3.3.jar:/Users/dipockdas/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/Users/dipockdas/.m2/repository/backtype/jzmq/2.1.0/jzmq-2.1.0.jar:/Users/dipockdas/.m2/repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar:/Users/dipockdas/.m2/repository/compojure/compojure/1.1.3/compojure-1.1.3.jar:/Users/dipockdas/.m2/repository/org/clojure/core.incubator/0.1.0/core.incubator-0.1.0.jar:/Users/dipockdas/.m2/repository/org/clojure/tools.macro/0.1.0/tools.macro-0.1.0.jar:/Users/dipockdas/.m2/repository/clout/clout/1.0.1/clout-1.0.1.jar:/Users/dipockdas/.m2/repository/ring/ring-core/1.1.5/ring-core-1.1.5.jar:/Users/dipockdas/.m2/repository/commons-fileupload/commons-fileupload/1.2.1/commons-fileupload-1.2.1.jar:/Users/dipockdas/.m2/repository/hiccup/hiccup/0.3.6/hiccup-0.3.6.jar:/Users/dipockdas/.m2/repository/ring/ring-jetty-adapter/0.3.11/ring-jetty-adapter-0.3.11.jar:/Users/dipockdas/.m2/repository/ring/ring-servlet/0.3.11/ring-servlet-0.3.11.jar:/Users/dipockdas/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar:/Users/dipockdas/.m2/repository/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar:/Users/dipockdas/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar:/Users/dipockdas/.m2/repository/org/clojure/tools.logging/0.2.3/tools.logging-0.2.3.jar:/Users/dipockdas/.m2/repository/org/clojure/math.numeric-tower/0.0.1/math.numeric-tower-0.0.1.jar:/Users/dipockdas/.m2/repository/org/slf4j/slf4j-log4j12/1.5.8/slf4j-log4j12-1.5.8.jar:/Users/dipockdas/.m2/repository/storm/carbonite/1.5.0/carbonite-1.5.0.jar:/Users/dipockdas/.m2/repository/com/esotericsoftware/kryo/kryo/2.17/kryo-2.17.jar:/Users/dipockdas/.m2/repository/com/esotericsoftware/reflectasm/reflectasm/1.07/reflectasm-1.07-shaded.jar:/Users/dipockdas/.m2/repository/org/ow2/asm/asm/4.0/asm-4.0.jar:/Users/dipockdas/.m2/repository/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar:/Users/dipockdas/.m2/repository/org/objenesis/objenesis/1.2/objenesis-1.2.jar:/Users/dipockdas/.m2/repository/org/yaml/snakeyaml/1.9/snakeyaml-1.9.jar:/Users/dipockdas/.m2/repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar:/Users/dipockdas/.m2/repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar:/Users/dipockdas/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/dipockdas/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar:/Users/dipockdas/.m2/repository/storm/tools.cli/0.2.2/tools.cli-0.2.2.jar:/Users/dipockdas/.m2/repository/com/googlecode/disruptor/disruptor/2.10.1/disruptor-2.10.1.jar:/Users/dipockdas/.m2/repository/storm/jgrapht/0.8.3/jgrapht-0.8.3.jar:/Users/dipockdas/.m2/repository/com/google/guava/guava/13.0/guava-13.0.jar:, java.io.tmpdir=/var/folders/71/cdhv2zjj5t72kclvfcjk2m5m0000gn/T/, java.vendor.url.bug=http://bugreport.apple.com/, mrj.build=11M4609, os.arch=x86_64, java.awt.graphicsenv=apple.awt.CGraphicsEnvironment, java.ext.dirs=/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext, mrj.version=1070.1.6.0_65-462, user.dir=/Users/dipockdas/storm/storm-app/my-storm-app/spa, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, basedir=/Users/dipockdas/storm/storm-app/my-storm-app/spa, file.encoding=MacRoman, hibernate.use_identifier_rollback=false, java.specification.version=1.6, hibernate.show_sql=true}
+23:47:23.817 [main] DEBUG o.h.p.entity.AbstractEntityPersister - Static SQL for entity: com.dipockdas.model.Author
+23:47:23.817 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Version select: select id from Author where id =?
+23:47:23.817 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Snapshot select: select author_.id, author_.name as name0_ from Author author_ where author_.id=?
+23:47:23.817 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Insert 0: insert into Author (name, id) values (?, ?)
+23:47:23.817 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Update 0: update Author set name=? where id=?
+23:47:23.818 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Delete 0: delete from Author where id=?
+23:47:23.824 [main] DEBUG o.h.p.entity.AbstractEntityPersister - Static SQL for entity: com.dipockdas.model.Book
+23:47:23.824 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Version select: select id from Book where id =?
+23:47:23.824 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Snapshot select: select book_.id, book_.author_id as author5_1_, book_.genre as genre1_, book_.published as published1_, book_.title as title1_ from Book book_ where book_.id=?
+23:47:23.825 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Insert 0: insert into Book (author_id, genre, published, title, id) values (?, ?, ?, ?, ?)
+23:47:23.825 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Update 0: update Book set author_id=?, genre=?, published=?, title=? where id=?
+23:47:23.825 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Delete 0: delete from Book where id=?
+23:47:23.831 [main] DEBUG o.h.p.c.AbstractCollectionPersister - Static SQL for collection: com.dipockdas.model.Author.books
+23:47:23.831 [main] DEBUG o.h.p.c.AbstractCollectionPersister -  Row insert: update Book set author_id=? where id=?
+23:47:23.831 [main] DEBUG o.h.p.c.AbstractCollectionPersister -  Row delete: update Book set author_id=null where author_id=? and id=?
+23:47:23.831 [main] DEBUG o.h.p.c.AbstractCollectionPersister -  One-shot delete: update Book set author_id=null where author_id=?
+23:47:23.843 [main] DEBUG o.h.loader.entity.EntityLoader - Static select for entity com.dipockdas.model.Author: select author0_.id as id0_0_, author0_.name as name0_0_ from Author author0_ where author0_.id=?
+23:47:23.843 [main] DEBUG o.h.loader.entity.EntityLoader - Static select for entity com.dipockdas.model.Author: select author0_.id as id0_0_, author0_.name as name0_0_ from Author author0_ where author0_.id=?
+23:47:23.844 [main] DEBUG o.h.loader.entity.EntityLoader - Static select for entity com.dipockdas.model.Author: select author0_.id as id0_0_, author0_.name as name0_0_ from Author author0_ where author0_.id=? for read only with rs
+23:47:23.844 [main] DEBUG o.h.loader.entity.EntityLoader - Static select for entity com.dipockdas.model.Author: select author0_.id as id0_0_, author0_.name as name0_0_ from Author author0_ where author0_.id=? for read only with rs
+23:47:23.844 [main] DEBUG o.h.loader.entity.EntityLoader - Static select for entity com.dipockdas.model.Author: select author0_.id as id0_0_, author0_.name as name0_0_ from Author author0_ where author0_.id=? for read only with rs
+23:47:23.849 [main] DEBUG o.h.loader.entity.EntityLoader - Static select for action ACTION_MERGE on entity com.dipockdas.model.Author: select author0_.id as id0_0_, author0_.name as name0_0_ from Author author0_ where author0_.id=?
+23:47:23.849 [main] DEBUG o.h.loader.entity.EntityLoader - Static select for action ACTION_REFRESH on entity com.dipockdas.model.Author: select author0_.id as id0_0_, author0_.name as name0_0_ from Author author0_ where author0_.id=?
+23:47:23.850 [main] DEBUG o.h.loader.entity.EntityLoader - Static select for entity com.dipockdas.model.Book: select book0_.id as id1_1_, book0_.author_id as author5_1_1_, book0_.genre as genre1_1_, book0_.published as published1_1_, book0_.title as title1_1_, author1_.id as id0_0_, author1_.name as name0_0_ from Book book0_ inner join Author author1_ on book0_.author_id=author1_.id where book0_.id=?
+23:47:23.851 [main] DEBUG o.h.loader.entity.EntityLoader - Static select for entity com.dipockdas.model.Book: select book0_.id as id1_1_, book0_.author_id as author5_1_1_, book0_.genre as genre1_1_, book0_.published as published1_1_, book0_.title as title1_1_, author1_.id as id0_0_, author1_.name as name0_0_ from Book book0_ inner join Author author1_ on book0_.author_id=author1_.id where book0_.id=?
+23:47:23.851 [main] DEBUG o.h.loader.entity.EntityLoader - Static select for entity com.dipockdas.model.Book: select book0_.id as id1_0_, book0_.author_id as author5_1_0_, book0_.genre as genre1_0_, book0_.published as published1_0_, book0_.title as title1_0_ from Book book0_ where book0_.id=? for read only with rs
+23:47:23.851 [main] DEBUG o.h.loader.entity.EntityLoader - Static select for entity com.dipockdas.model.Book: select book0_.id as id1_0_, book0_.author_id as author5_1_0_, book0_.genre as genre1_0_, book0_.published as published1_0_, book0_.title as title1_0_ from Book book0_ where book0_.id=? for read only with rs
+23:47:23.851 [main] DEBUG o.h.loader.entity.EntityLoader - Static select for entity com.dipockdas.model.Book: select book0_.id as id1_0_, book0_.author_id as author5_1_0_, book0_.genre as genre1_0_, book0_.published as published1_0_, book0_.title as title1_0_ from Book book0_ where book0_.id=? for read only with rs
+23:47:23.852 [main] DEBUG o.h.loader.entity.EntityLoader - Static select for action ACTION_MERGE on entity com.dipockdas.model.Book: select book0_.id as id1_0_, book0_.author_id as author5_1_0_, book0_.genre as genre1_0_, book0_.published as published1_0_, book0_.title as title1_0_ from Book book0_ where book0_.id=?
+23:47:23.852 [main] DEBUG o.h.loader.entity.EntityLoader - Static select for action ACTION_REFRESH on entity com.dipockdas.model.Book: select book0_.id as id1_0_, book0_.author_id as author5_1_0_, book0_.genre as genre1_0_, book0_.published as published1_0_, book0_.title as title1_0_ from Book book0_ where book0_.id=?
+23:47:23.855 [main] DEBUG o.h.l.collection.OneToManyLoader - Static select for one-to-many com.dipockdas.model.Author.books: select books0_.author_id as author5_1_, books0_.id as id1_, books0_.id as id1_0_, books0_.author_id as author5_1_0_, books0_.genre as genre1_0_, books0_.published as published1_0_, books0_.title as title1_0_ from Book books0_ where books0_.author_id=?
+23:47:23.856 [main] DEBUG o.h.impl.SessionFactoryObjectFactory - initializing class SessionFactoryObjectFactory
+23:47:23.857 [main] DEBUG o.h.impl.SessionFactoryObjectFactory - registered: 8a80819e46c2544f0146c2544fcf0000 (unnamed)
+23:47:23.857 [main] INFO  o.h.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+23:47:23.857 [main] DEBUG o.hibernate.impl.SessionFactoryImpl - instantiated session factory
+23:47:23.859 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - Running hbm2ddl schema update
+23:47:23.859 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - fetching database metadata
+23:47:23.862 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - updating schema
+23:47:23.862 [main] DEBUG o.h.cfg.AnnotationConfiguration - Execute first pass mapping processing
+23:47:23.862 [main] DEBUG o.h.cfg.AnnotationConfiguration - Process hbm files
+23:47:23.862 [main] DEBUG o.h.cfg.AnnotationConfiguration - Process annotated classes
+23:47:23.862 [main] DEBUG o.h.cfg.AnnotationConfiguration - processing fk mappings (*ToOne and JoinedSubclass)
+23:47:23.862 [main] DEBUG org.hibernate.cfg.Configuration - processing extends queue
+23:47:23.862 [main] DEBUG org.hibernate.cfg.Configuration - processing collection mappings
+23:47:23.862 [main] DEBUG org.hibernate.cfg.Configuration - processing native query and ResultSetMapping mappings
+23:47:23.863 [main] DEBUG org.hibernate.cfg.Configuration - processing association property references
+23:47:23.863 [main] DEBUG org.hibernate.cfg.Configuration - processing foreign key constraints
+23:47:23.863 [main] DEBUG org.hibernate.cfg.Configuration - resolving reference to class: com.dipockdas.model.Author
+23:47:24.590 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - table found: .APP.AUTHOR
+23:47:24.590 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - columns: [id, name]
+23:47:24.590 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - foreign keys: []
+23:47:24.590 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - indexes: [sql140621232338721, sql140621232338720]
+23:47:24.629 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - table found: .APP.BOOK
+23:47:24.629 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - columns: [genre, id, title, author_id, published]
+23:47:24.629 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - foreign keys: [fk1faf09fe4cfb70]
+23:47:24.629 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - indexes: [sql140621232338830, sql140621232338771, sql140621232338770]
+23:47:24.638 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - table found: .APP.HIBERNATE_UNIQUE_KEY
+23:47:24.638 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - columns: [next_hi]
+23:47:24.638 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - foreign keys: []
+23:47:24.638 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - indexes: []
+23:47:24.638 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - schema update complete
+23:47:24.650 [main] DEBUG o.h.util.JDBCExceptionReporter - SQL Warning
+java.sql.SQLWarning: Database 'lift_example' not created, connection made to existing database instead.
+	at org.apache.derby.iapi.error.SQLWarningFactory.newSQLWarning(Unknown Source) ~[derby-10.4.2.0.jar:na]
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source) ~[derby-10.4.2.0.jar:na]
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source) ~[derby-10.4.2.0.jar:na]
+	at org.apache.derby.impl.jdbc.EmbedConnection40.<init>(Unknown Source) ~[derby-10.4.2.0.jar:na]
+	at org.apache.derby.jdbc.Driver40.getNewEmbedConnection(Unknown Source) ~[derby-10.4.2.0.jar:na]
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source) ~[derby-10.4.2.0.jar:na]
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source) ~[derby-10.4.2.0.jar:na]
+	at java.sql.DriverManager.getConnection(DriverManager.java:582) ~[na:1.6.0_65]
+	at java.sql.DriverManager.getConnection(DriverManager.java:154) ~[na:1.6.0_65]
+	at org.hibernate.connection.DriverManagerConnectionProvider.getConnection(DriverManagerConnectionProvider.java:133) ~[hibernate-core-3.3.0.SP1.jar:3.3.0.SP1]
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:111) ~[hibernate-core-3.3.0.SP1.jar:3.3.0.SP1]
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:2101) ~[hibernate-core-3.3.0.SP1.jar:3.3.0.SP1]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1325) ~[hibernate-core-3.3.0.SP1.jar:3.3.0.SP1]
+	at org.hibernate.cfg.AnnotationConfiguration.buildSessionFactory(AnnotationConfiguration.java:867) [hibernate-annotations-3.4.0.GA.jar:3.3.0.SP1]
+	at org.hibernate.ejb.Ejb3Configuration.buildEntityManagerFactory(Ejb3Configuration.java:669) [hibernate-entitymanager-3.4.0.GA.jar:3.4.0.GA]
+	at org.hibernate.ejb.HibernatePersistence.createEntityManagerFactory(HibernatePersistence.java:126) [hibernate-entitymanager-3.4.0.GA.jar:3.4.0.GA]
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:52) [ejb3-persistence-1.0.2.GA.jar:3.0 Final Release (1.0.2.GA) April 2 2008]
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:34) [ejb3-persistence-1.0.2.GA.jar:3.0 Final Release (1.0.2.GA) April 2 2008]
+	at com.dipockdas.model.TestJPAWeb.initEMF(TestJPAWeb.scala:32) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.6.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[na:1.6.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[na:1.6.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:597) ~[na:1.6.0_65]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44) [junit-4.7.jar:na]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15) [junit-4.7.jar:na]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41) [junit-4.7.jar:na]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:27) [junit-4.7.jar:na]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31) [junit-4.7.jar:na]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76) [junit-4.7.jar:na]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50) [junit-4.7.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193) [junit-4.7.jar:na]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52) [junit-4.7.jar:na]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191) [junit-4.7.jar:na]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42) [junit-4.7.jar:na]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184) [junit-4.7.jar:na]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236) [junit-4.7.jar:na]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112) [surefire-junit4-2.12.4.jar:2.12.4]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.6.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[na:1.6.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[na:1.6.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:597) ~[na:1.6.0_65]
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189) [surefire-api-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75) [surefire-booter-2.12.4.jar:2.12.4]
+23:47:24.650 [main] WARN  o.h.util.JDBCExceptionReporter - SQL Warning: 10000, SQLState: 01J01
+23:47:24.651 [main] WARN  o.h.util.JDBCExceptionReporter - Database 'lift_example' not created, connection made to existing database instead.
+23:47:24.651 [main] DEBUG o.hibernate.impl.SessionFactoryImpl - Checking 5 named HQL queries
+23:47:24.651 [main] DEBUG o.hibernate.impl.SessionFactoryImpl - Checking named query: findBooksByDate
+23:47:24.693 [main] DEBUG o.h.hql.ast.QueryTranslatorImpl - parse() - HQL: from com.dipockdas.model.Book b where b.published between :startDate and :endDate
+23:47:24.703 [main] DEBUG org.hibernate.hql.ast.AST - --- HQL AST ---
+ \-[QUERY] 'query'
+    +-[SELECT_FROM] 'SELECT_FROM'
+    |  \-[FROM] 'from'
+    |     \-[RANGE] 'RANGE'
+    |        +-[DOT] '.'
+    |        |  +-[DOT] '.'
+    |        |  |  +-[DOT] '.'
+    |        |  |  |  +-[IDENT] 'com'
+    |        |  |  |  \-[IDENT] 'dipockdas'
+    |        |  |  \-[IDENT] 'model'
+    |        |  \-[IDENT] 'Book'
+    |        \-[ALIAS] 'b'
+    \-[WHERE] 'where'
+       \-[BETWEEN] 'between'
+          +-[DOT] '.'
+          |  +-[IDENT] 'b'
+          |  \-[IDENT] 'published'
+          +-[COLON] ':'
+          |  \-[IDENT] 'startDate'
+          \-[COLON] ':'
+             \-[IDENT] 'endDate'
+
+23:47:24.703 [main] DEBUG org.hibernate.hql.ast.ErrorCounter - throwQueryException() : no errors
+23:47:24.748 [main] DEBUG o.h.hql.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
+23:47:24.765 [main] DEBUG o.hibernate.hql.ast.tree.FromElement - FromClause{level=1} :  com.dipockdas.model.Book (b) -> book0_
+23:47:24.766 [main] DEBUG o.h.hql.ast.tree.FromReferenceNode - Resolved :  b -> book0_.id
+23:47:24.767 [main] DEBUG org.hibernate.hql.ast.tree.DotNode - getDataType() : published -> org.hibernate.type.DateType@2e1474fc
+23:47:24.768 [main] DEBUG o.h.hql.ast.tree.FromReferenceNode - Resolved :  b.published -> book0_.published
+23:47:24.770 [main] DEBUG o.h.hql.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+23:47:24.770 [main] DEBUG org.hibernate.hql.ast.HqlSqlWalker - processQuery() :  ( SELECT ( FromClause{level=1} Book book0_ ) ( where ( between ( book0_.published book0_.id published ) ? ? ) ) )
+23:47:24.776 [main] DEBUG org.hibernate.hql.ast.HqlSqlWalker - Derived SELECT clause created.
+23:47:24.780 [main] DEBUG o.h.hql.ast.util.JoinProcessor - Using FROM fragment [Book book0_]
+23:47:24.781 [main] DEBUG o.h.hql.antlr.HqlSqlBaseWalker - select >> end [level=1, statement=select]
+23:47:24.783 [main] DEBUG org.hibernate.hql.ast.AST - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (Book)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'book0_.id as id1_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=b,role=null,tableName=Book,tableAlias=book0_,origin=null,colums={,className=com.dipockdas.model.Book}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'book0_.author_id as author5_1_, book0_.genre as genre1_, book0_.published as published1_, book0_.title as title1_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[b], fromElementByTableAlias=[book0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'Book book0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=b,role=null,tableName=Book,tableAlias=book0_,origin=null,colums={,className=com.dipockdas.model.Book}}
+    \-[WHERE] SqlNode: 'where'
+       \-[BETWEEN] BetweenOperatorNode: 'between'
+          +-[DOT] DotNode: 'book0_.published' {propertyName=published,dereferenceType=4,propertyPath=published,path=b.published,tableAlias=book0_,className=com.dipockdas.model.Book,classAlias=b}
+          |  +-[ALIAS_REF] IdentNode: 'book0_.id' {alias=b, className=com.dipockdas.model.Book, tableAlias=book0_}
+          |  \-[IDENT] IdentNode: 'published' {originalText=published}
+          +-[NAMED_PARAM] ParameterNode: '?' {name=startDate, expectedType=org.hibernate.type.DateType@2e1474fc}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=endDate, expectedType=org.hibernate.type.DateType@2e1474fc}
+
+23:47:24.784 [main] DEBUG org.hibernate.hql.ast.ErrorCounter - throwQueryException() : no errors
+23:47:24.794 [main] DEBUG o.h.hql.ast.QueryTranslatorImpl - HQL: from com.dipockdas.model.Book b where b.published between :startDate and :endDate
+23:47:24.794 [main] DEBUG o.h.hql.ast.QueryTranslatorImpl - SQL: select book0_.id as id1_, book0_.author_id as author5_1_, book0_.genre as genre1_, book0_.published as published1_, book0_.title as title1_ from Book book0_ where book0_.published between ? and ?
+23:47:24.794 [main] DEBUG org.hibernate.hql.ast.ErrorCounter - throwQueryException() : no errors
+23:47:24.806 [main] DEBUG o.hibernate.impl.SessionFactoryImpl - Checking named query: findAllBooks
+23:47:24.807 [main] DEBUG o.h.hql.ast.QueryTranslatorImpl - parse() - HQL: from com.dipockdas.model.Book b order by b.title
+23:47:24.811 [main] DEBUG org.hibernate.hql.ast.AST - --- HQL AST ---
+ \-[QUERY] 'query'
+    +-[SELECT_FROM] 'SELECT_FROM'
+    |  \-[FROM] 'from'
+    |     \-[RANGE] 'RANGE'
+    |        +-[DOT] '.'
+    |        |  +-[DOT] '.'
+    |        |  |  +-[DOT] '.'
+    |        |  |  |  +-[IDENT] 'com'
+    |        |  |  |  \-[IDENT] 'dipockdas'
+    |        |  |  \-[IDENT] 'model'
+    |        |  \-[IDENT] 'Book'
+    |        \-[ALIAS] 'b'
+    \-[ORDER] 'order'
+       \-[DOT] '.'
+          +-[IDENT] 'b'
+          \-[IDENT] 'title'
+
+23:47:24.811 [main] DEBUG org.hibernate.hql.ast.ErrorCounter - throwQueryException() : no errors
+23:47:24.811 [main] DEBUG o.h.hql.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
+23:47:24.811 [main] DEBUG o.hibernate.hql.ast.tree.FromElement - FromClause{level=1} :  com.dipockdas.model.Book (b) -> book0_
+23:47:24.813 [main] DEBUG o.h.hql.ast.tree.FromReferenceNode - Resolved :  b -> book0_.id
+23:47:24.813 [main] DEBUG org.hibernate.hql.ast.tree.DotNode - getDataType() : title -> org.hibernate.type.StringType@7058d7c2
+23:47:24.813 [main] DEBUG o.h.hql.ast.tree.FromReferenceNode - Resolved :  b.title -> book0_.title
+23:47:24.813 [main] DEBUG o.h.hql.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+23:47:24.813 [main] DEBUG org.hibernate.hql.ast.HqlSqlWalker - processQuery() :  ( SELECT ( FromClause{level=1} Book book0_ ) ( order ( book0_.title book0_.id title ) ) )
+23:47:24.813 [main] DEBUG org.hibernate.hql.ast.HqlSqlWalker - Derived SELECT clause created.
+23:47:24.814 [main] DEBUG o.h.hql.ast.util.JoinProcessor - Using FROM fragment [Book book0_]
+23:47:24.814 [main] DEBUG o.h.hql.antlr.HqlSqlBaseWalker - select >> end [level=1, statement=select]
+23:47:24.815 [main] DEBUG org.hibernate.hql.ast.AST - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (Book)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'book0_.id as id1_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=b,role=null,tableName=Book,tableAlias=book0_,origin=null,colums={,className=com.dipockdas.model.Book}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'book0_.author_id as author5_1_, book0_.genre as genre1_, book0_.published as published1_, book0_.title as title1_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[b], fromElementByTableAlias=[book0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'Book book0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=b,role=null,tableName=Book,tableAlias=book0_,origin=null,colums={,className=com.dipockdas.model.Book}}
+    \-[ORDER] OrderByClause: 'order'
+       \-[DOT] DotNode: 'book0_.title' {propertyName=title,dereferenceType=4,propertyPath=title,path=b.title,tableAlias=book0_,className=com.dipockdas.model.Book,classAlias=b}
+          +-[ALIAS_REF] IdentNode: 'book0_.id' {alias=b, className=com.dipockdas.model.Book, tableAlias=book0_}
+          \-[IDENT] IdentNode: 'title' {originalText=title}
+
+23:47:24.816 [main] DEBUG org.hibernate.hql.ast.ErrorCounter - throwQueryException() : no errors
+23:47:24.816 [main] DEBUG o.h.hql.ast.QueryTranslatorImpl - HQL: from com.dipockdas.model.Book b order by b.title
+23:47:24.816 [main] DEBUG o.h.hql.ast.QueryTranslatorImpl - SQL: select book0_.id as id1_, book0_.author_id as author5_1_, book0_.genre as genre1_, book0_.published as published1_, book0_.title as title1_ from Book book0_ order by book0_.title
+23:47:24.816 [main] DEBUG org.hibernate.hql.ast.ErrorCounter - throwQueryException() : no errors
+23:47:24.816 [main] DEBUG o.hibernate.impl.SessionFactoryImpl - Checking named query: findAllAuthors
+23:47:24.817 [main] DEBUG o.h.hql.ast.QueryTranslatorImpl - parse() - HQL: from com.dipockdas.model.Author a order by a.name
+23:47:24.821 [main] DEBUG org.hibernate.hql.ast.AST - --- HQL AST ---
+ \-[QUERY] 'query'
+    +-[SELECT_FROM] 'SELECT_FROM'
+    |  \-[FROM] 'from'
+    |     \-[RANGE] 'RANGE'
+    |        +-[DOT] '.'
+    |        |  +-[DOT] '.'
+    |        |  |  +-[DOT] '.'
+    |        |  |  |  +-[IDENT] 'com'
+    |        |  |  |  \-[IDENT] 'dipockdas'
+    |        |  |  \-[IDENT] 'model'
+    |        |  \-[IDENT] 'Author'
+    |        \-[ALIAS] 'a'
+    \-[ORDER] 'order'
+       \-[DOT] '.'
+          +-[IDENT] 'a'
+          \-[IDENT] 'name'
+
+23:47:24.821 [main] DEBUG org.hibernate.hql.ast.ErrorCounter - throwQueryException() : no errors
+23:47:24.821 [main] DEBUG o.h.hql.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
+23:47:24.822 [main] DEBUG o.hibernate.hql.ast.tree.FromElement - FromClause{level=1} :  com.dipockdas.model.Author (a) -> author0_
+23:47:24.822 [main] DEBUG o.h.hql.ast.tree.FromReferenceNode - Resolved :  a -> author0_.id
+23:47:24.822 [main] DEBUG org.hibernate.hql.ast.tree.DotNode - getDataType() : name -> org.hibernate.type.StringType@7058d7c2
+23:47:24.822 [main] DEBUG o.h.hql.ast.tree.FromReferenceNode - Resolved :  a.name -> author0_.name
+23:47:24.822 [main] DEBUG o.h.hql.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+23:47:24.822 [main] DEBUG org.hibernate.hql.ast.HqlSqlWalker - processQuery() :  ( SELECT ( FromClause{level=1} Author author0_ ) ( order ( author0_.name author0_.id name ) ) )
+23:47:24.823 [main] DEBUG org.hibernate.hql.ast.HqlSqlWalker - Derived SELECT clause created.
+23:47:24.823 [main] DEBUG o.h.hql.ast.util.JoinProcessor - Using FROM fragment [Author author0_]
+23:47:24.823 [main] DEBUG o.h.hql.antlr.HqlSqlBaseWalker - select >> end [level=1, statement=select]
+23:47:24.824 [main] DEBUG org.hibernate.hql.ast.AST - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (Author)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'author0_.id as id0_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=a,role=null,tableName=Author,tableAlias=author0_,origin=null,colums={,className=com.dipockdas.model.Author}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'author0_.name as name0_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[a], fromElementByTableAlias=[author0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'Author author0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=a,role=null,tableName=Author,tableAlias=author0_,origin=null,colums={,className=com.dipockdas.model.Author}}
+    \-[ORDER] OrderByClause: 'order'
+       \-[DOT] DotNode: 'author0_.name' {propertyName=name,dereferenceType=4,propertyPath=name,path=a.name,tableAlias=author0_,className=com.dipockdas.model.Author,classAlias=a}
+          +-[ALIAS_REF] IdentNode: 'author0_.id' {alias=a, className=com.dipockdas.model.Author, tableAlias=author0_}
+          \-[IDENT] IdentNode: 'name' {originalText=name}
+
+23:47:24.824 [main] DEBUG org.hibernate.hql.ast.ErrorCounter - throwQueryException() : no errors
+23:47:24.824 [main] DEBUG o.h.hql.ast.QueryTranslatorImpl - HQL: from com.dipockdas.model.Author a order by a.name
+23:47:24.825 [main] DEBUG o.h.hql.ast.QueryTranslatorImpl - SQL: select author0_.id as id0_, author0_.name as name0_ from Author author0_ order by author0_.name
+23:47:24.825 [main] DEBUG org.hibernate.hql.ast.ErrorCounter - throwQueryException() : no errors
+23:47:24.825 [main] DEBUG o.hibernate.impl.SessionFactoryImpl - Checking named query: findBooksByAuthor
+23:47:24.825 [main] DEBUG o.h.hql.ast.QueryTranslatorImpl - parse() - HQL: from com.dipockdas.model.Book b where b.author.id = :id order by b.title
+23:47:24.829 [main] DEBUG org.hibernate.hql.ast.AST - --- HQL AST ---
+ \-[QUERY] 'query'
+    +-[SELECT_FROM] 'SELECT_FROM'
+    |  \-[FROM] 'from'
+    |     \-[RANGE] 'RANGE'
+    |        +-[DOT] '.'
+    |        |  +-[DOT] '.'
+    |        |  |  +-[DOT] '.'
+    |        |  |  |  +-[IDENT] 'com'
+    |        |  |  |  \-[IDENT] 'dipockdas'
+    |        |  |  \-[IDENT] 'model'
+    |        |  \-[IDENT] 'Book'
+    |        \-[ALIAS] 'b'
+    +-[WHERE] 'where'
+    |  \-[EQ] '='
+    |     +-[DOT] '.'
+    |     |  +-[DOT] '.'
+    |     |  |  +-[IDENT] 'b'
+    |     |  |  \-[IDENT] 'author'
+    |     |  \-[IDENT] 'id'
+    |     \-[COLON] ':'
+    |        \-[IDENT] 'id'
+    \-[ORDER] 'order'
+       \-[DOT] '.'
+          +-[IDENT] 'b'
+          \-[IDENT] 'title'
+
+23:47:24.829 [main] DEBUG org.hibernate.hql.ast.ErrorCounter - throwQueryException() : no errors
+23:47:24.829 [main] DEBUG o.h.hql.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
+23:47:24.829 [main] DEBUG o.hibernate.hql.ast.tree.FromElement - FromClause{level=1} :  com.dipockdas.model.Book (b) -> book0_
+23:47:24.831 [main] DEBUG o.h.hql.ast.tree.FromReferenceNode - Resolved :  b -> book0_.id
+23:47:24.832 [main] DEBUG org.hibernate.hql.ast.tree.DotNode - getDataType() : author -> org.hibernate.type.ManyToOneType(com.dipockdas.model.Author)
+23:47:24.832 [main] DEBUG org.hibernate.hql.ast.tree.DotNode - dereferenceShortcut() : property id in com.dipockdas.model.Book does not require a join.
+23:47:24.832 [main] DEBUG org.hibernate.hql.ast.tree.DotNode - Unresolved property path is now 'author.id'
+23:47:24.832 [main] DEBUG o.h.hql.ast.tree.FromReferenceNode - Resolved :  b.author -> book0_.author_id
+23:47:24.832 [main] DEBUG org.hibernate.hql.ast.tree.DotNode - getDataType() : author.id -> org.hibernate.type.LongType@4296e599
+23:47:24.832 [main] DEBUG o.h.hql.ast.tree.FromReferenceNode - Resolved :  b.author.id -> book0_.author_id
+23:47:24.832 [main] DEBUG o.h.hql.ast.tree.FromReferenceNode - Resolved :  b -> book0_.id
+23:47:24.833 [main] DEBUG org.hibernate.hql.ast.tree.DotNode - getDataType() : title -> org.hibernate.type.StringType@7058d7c2
+23:47:24.833 [main] DEBUG o.h.hql.ast.tree.FromReferenceNode - Resolved :  b.title -> book0_.title
+23:47:24.833 [main] DEBUG o.h.hql.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+23:47:24.833 [main] DEBUG org.hibernate.hql.ast.HqlSqlWalker - processQuery() :  ( SELECT ( FromClause{level=1} Book book0_ ) ( where ( = ( book0_.author_id ( book0_.author_id book0_.id author ) id ) ? ) ) ( order ( book0_.title book0_.id title ) ) )
+23:47:24.833 [main] DEBUG org.hibernate.hql.ast.HqlSqlWalker - Derived SELECT clause created.
+23:47:24.833 [main] DEBUG o.h.hql.ast.util.JoinProcessor - Using FROM fragment [Book book0_]
+23:47:24.833 [main] DEBUG o.h.hql.antlr.HqlSqlBaseWalker - select >> end [level=1, statement=select]
+23:47:24.835 [main] DEBUG org.hibernate.hql.ast.AST - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (Book)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'book0_.id as id1_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=b,role=null,tableName=Book,tableAlias=book0_,origin=null,colums={,className=com.dipockdas.model.Book}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'book0_.author_id as author5_1_, book0_.genre as genre1_, book0_.published as published1_, book0_.title as title1_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[b], fromElementByTableAlias=[book0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'Book book0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=b,role=null,tableName=Book,tableAlias=book0_,origin=null,colums={,className=com.dipockdas.model.Book}}
+    +-[WHERE] SqlNode: 'where'
+    |  \-[EQ] BinaryLogicOperatorNode: '='
+    |     +-[DOT] DotNode: 'book0_.author_id' {propertyName=id,dereferenceType=4,propertyPath=author.id,path=b.author.id,tableAlias=book0_,className=com.dipockdas.model.Book,classAlias=b}
+    |     |  +-[DOT] DotNode: 'book0_.author_id' {propertyName=id,dereferenceType=ROOT_LEVEL,propertyPath=author.id,path=b.author,tableAlias=book0_,className=com.dipockdas.model.Book,classAlias=b}
+    |     |  |  +-[ALIAS_REF] IdentNode: 'book0_.id' {alias=b, className=com.dipockdas.model.Book, tableAlias=book0_}
+    |     |  |  \-[IDENT] IdentNode: 'author' {originalText=author}
+    |     |  \-[IDENT] IdentNode: 'id' {originalText=id}
+    |     \-[NAMED_PARAM] ParameterNode: '?' {name=id, expectedType=org.hibernate.type.LongType@4296e599}
+    \-[ORDER] OrderByClause: 'order'
+       \-[DOT] DotNode: 'book0_.title' {propertyName=title,dereferenceType=4,propertyPath=title,path=b.title,tableAlias=book0_,className=com.dipockdas.model.Book,classAlias=b}
+          +-[ALIAS_REF] IdentNode: 'book0_.id' {alias=b, className=com.dipockdas.model.Book, tableAlias=book0_}
+          \-[IDENT] IdentNode: 'title' {originalText=title}
+
+23:47:24.835 [main] DEBUG org.hibernate.hql.ast.ErrorCounter - throwQueryException() : no errors
+23:47:24.835 [main] DEBUG o.h.hql.ast.QueryTranslatorImpl - HQL: from com.dipockdas.model.Book b where b.author.id = :id order by b.title
+23:47:24.835 [main] DEBUG o.h.hql.ast.QueryTranslatorImpl - SQL: select book0_.id as id1_, book0_.author_id as author5_1_, book0_.genre as genre1_, book0_.published as published1_, book0_.title as title1_ from Book book0_ where book0_.author_id=? order by book0_.title
+23:47:24.835 [main] DEBUG org.hibernate.hql.ast.ErrorCounter - throwQueryException() : no errors
+23:47:24.836 [main] DEBUG o.hibernate.impl.SessionFactoryImpl - Checking named query: findBooksByTitle
+23:47:24.836 [main] DEBUG o.h.hql.ast.QueryTranslatorImpl - parse() - HQL: from com.dipockdas.model.Book b where lower(b.title) like :title order by b.title
+23:47:24.839 [main] DEBUG org.hibernate.hql.ast.AST - --- HQL AST ---
+ \-[QUERY] 'query'
+    +-[SELECT_FROM] 'SELECT_FROM'
+    |  \-[FROM] 'from'
+    |     \-[RANGE] 'RANGE'
+    |        +-[DOT] '.'
+    |        |  +-[DOT] '.'
+    |        |  |  +-[DOT] '.'
+    |        |  |  |  +-[IDENT] 'com'
+    |        |  |  |  \-[IDENT] 'dipockdas'
+    |        |  |  \-[IDENT] 'model'
+    |        |  \-[IDENT] 'Book'
+    |        \-[ALIAS] 'b'
+    +-[WHERE] 'where'
+    |  \-[LIKE] 'like'
+    |     +-[METHOD_CALL] '('
+    |     |  +-[IDENT] 'lower'
+    |     |  \-[EXPR_LIST] 'exprList'
+    |     |     \-[DOT] '.'
+    |     |        +-[IDENT] 'b'
+    |     |        \-[IDENT] 'title'
+    |     \-[COLON] ':'
+    |        \-[IDENT] 'title'
+    \-[ORDER] 'order'
+       \-[DOT] '.'
+          +-[IDENT] 'b'
+          \-[IDENT] 'title'
+
+23:47:24.839 [main] DEBUG org.hibernate.hql.ast.ErrorCounter - throwQueryException() : no errors
+23:47:24.839 [main] DEBUG o.h.hql.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
+23:47:24.839 [main] DEBUG o.hibernate.hql.ast.tree.FromElement - FromClause{level=1} :  com.dipockdas.model.Book (b) -> book0_
+23:47:24.841 [main] DEBUG o.h.hql.ast.tree.FromReferenceNode - Resolved :  b -> book0_.id
+23:47:24.841 [main] DEBUG org.hibernate.hql.ast.tree.DotNode - getDataType() : title -> org.hibernate.type.StringType@7058d7c2
+23:47:24.841 [main] DEBUG o.h.hql.ast.tree.FromReferenceNode - Resolved :  b.title -> book0_.title
+23:47:24.842 [main] DEBUG o.h.hql.ast.tree.FromReferenceNode - Resolved :  b -> book0_.id
+23:47:24.842 [main] DEBUG org.hibernate.hql.ast.tree.DotNode - getDataType() : title -> org.hibernate.type.StringType@7058d7c2
+23:47:24.842 [main] DEBUG o.h.hql.ast.tree.FromReferenceNode - Resolved :  b.title -> book0_.title
+23:47:24.842 [main] DEBUG o.h.hql.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+23:47:24.842 [main] DEBUG org.hibernate.hql.ast.HqlSqlWalker - processQuery() :  ( SELECT ( FromClause{level=1} Book book0_ ) ( where ( like ( ( lower ( exprList ( book0_.title book0_.id title ) ) ) ? ) ) ( order ( book0_.title book0_.id title ) ) )
+23:47:24.842 [main] DEBUG org.hibernate.hql.ast.HqlSqlWalker - Derived SELECT clause created.
+23:47:24.842 [main] DEBUG o.h.hql.ast.util.JoinProcessor - Using FROM fragment [Book book0_]
+23:47:24.842 [main] DEBUG o.h.hql.antlr.HqlSqlBaseWalker - select >> end [level=1, statement=select]
+23:47:24.844 [main] DEBUG org.hibernate.hql.ast.AST - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (Book)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'book0_.id as id1_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=b,role=null,tableName=Book,tableAlias=book0_,origin=null,colums={,className=com.dipockdas.model.Book}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'book0_.author_id as author5_1_, book0_.genre as genre1_, book0_.published as published1_, book0_.title as title1_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[b], fromElementByTableAlias=[book0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'Book book0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=b,role=null,tableName=Book,tableAlias=book0_,origin=null,colums={,className=com.dipockdas.model.Book}}
+    +-[WHERE] SqlNode: 'where'
+    |  \-[LIKE] BinaryLogicOperatorNode: 'like'
+    |     +-[METHOD_CALL] MethodNode: '('
+    |     |  +-[METHOD_NAME] IdentNode: 'lower' {originalText=lower}
+    |     |  \-[EXPR_LIST] SqlNode: 'exprList'
+    |     |     \-[DOT] DotNode: 'book0_.title' {propertyName=title,dereferenceType=4,propertyPath=title,path=b.title,tableAlias=book0_,className=com.dipockdas.model.Book,classAlias=b}
+    |     |        +-[ALIAS_REF] IdentNode: 'book0_.id' {alias=b, className=com.dipockdas.model.Book, tableAlias=book0_}
+    |     |        \-[IDENT] IdentNode: 'title' {originalText=title}
+    |     \-[NAMED_PARAM] ParameterNode: '?' {name=title, expectedType=org.hibernate.type.StringType@7058d7c2}
+    \-[ORDER] OrderByClause: 'order'
+       \-[DOT] DotNode: 'book0_.title' {propertyName=title,dereferenceType=4,propertyPath=title,path=b.title,tableAlias=book0_,className=com.dipockdas.model.Book,classAlias=b}
+          +-[ALIAS_REF] IdentNode: 'book0_.id' {alias=b, className=com.dipockdas.model.Book, tableAlias=book0_}
+          \-[IDENT] IdentNode: 'title' {originalText=title}
+
+23:47:24.844 [main] DEBUG org.hibernate.hql.ast.ErrorCounter - throwQueryException() : no errors
+23:47:24.845 [main] DEBUG o.h.hql.ast.QueryTranslatorImpl - HQL: from com.dipockdas.model.Book b where lower(b.title) like :title order by b.title
+23:47:24.845 [main] DEBUG o.h.hql.ast.QueryTranslatorImpl - SQL: select book0_.id as id1_, book0_.author_id as author5_1_, book0_.genre as genre1_, book0_.published as published1_, book0_.title as title1_ from Book book0_ where lower(book0_.title) like ? order by book0_.title
+23:47:24.845 [main] DEBUG org.hibernate.hql.ast.ErrorCounter - throwQueryException() : no errors
+23:47:24.845 [main] DEBUG o.hibernate.impl.SessionFactoryImpl - Checking 0 named SQL queries
+23:47:24.870 [main] DEBUG org.hibernate.impl.SessionImpl - opened session at timestamp: 14034196448
+23:47:24.871 [main] DEBUG o.h.transaction.JDBCTransaction - begin
+23:47:24.871 [main] DEBUG org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+23:47:24.871 [main] DEBUG o.h.transaction.JDBCTransaction - current autocommit status: true
+23:47:24.871 [main] DEBUG o.h.transaction.JDBCTransaction - disabling autocommit
+23:47:24.875 [main] DEBUG org.hibernate.jdbc.AbstractBatcher - opening JDBC connection
+23:47:24.875 [main] DEBUG o.h.c.DriverManagerConnectionProvider - opening new JDBC connection
+23:47:24.876 [main] DEBUG o.h.c.DriverManagerConnectionProvider - created connection to: jdbc:derby:lift_example;create=true, Isolation Level: 2
+23:47:24.878 [main] DEBUG org.hibernate.SQL - select next_hi from hibernate_unique_key for read only with rs
+23:47:24.885 [main] DEBUG org.hibernate.SQL - update hibernate_unique_key set next_hi = ? where next_hi = ?
+23:47:24.936 [main] DEBUG org.hibernate.jdbc.AbstractBatcher - closing JDBC connection (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)
+23:47:24.937 [main] DEBUG o.h.util.JDBCExceptionReporter - SQL Warning
+java.sql.SQLWarning: Database 'lift_example' not created, connection made to existing database instead.
+	at org.apache.derby.iapi.error.SQLWarningFactory.newSQLWarning(Unknown Source) ~[derby-10.4.2.0.jar:na]
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source) ~[derby-10.4.2.0.jar:na]
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source) ~[derby-10.4.2.0.jar:na]
+	at org.apache.derby.impl.jdbc.EmbedConnection40.<init>(Unknown Source) ~[derby-10.4.2.0.jar:na]
+	at org.apache.derby.jdbc.Driver40.getNewEmbedConnection(Unknown Source) ~[derby-10.4.2.0.jar:na]
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source) ~[derby-10.4.2.0.jar:na]
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source) ~[derby-10.4.2.0.jar:na]
+	at java.sql.DriverManager.getConnection(DriverManager.java:582) ~[na:1.6.0_65]
+	at java.sql.DriverManager.getConnection(DriverManager.java:154) ~[na:1.6.0_65]
+	at org.hibernate.connection.DriverManagerConnectionProvider.getConnection(DriverManagerConnectionProvider.java:133) ~[hibernate-core-3.3.0.SP1.jar:3.3.0.SP1]
+	at org.hibernate.jdbc.AbstractBatcher.openConnection(AbstractBatcher.java:587) ~[hibernate-core-3.3.0.SP1.jar:3.3.0.SP1]
+	at org.hibernate.engine.transaction.Isolater$JdbcDelegate.delegateWork(Isolater.java:202) ~[hibernate-core-3.3.0.SP1.jar:3.3.0.SP1]
+	at org.hibernate.engine.transaction.Isolater.doIsolatedWork(Isolater.java:67) [hibernate-core-3.3.0.SP1.jar:3.3.0.SP1]
+	at org.hibernate.engine.TransactionHelper.doWorkInNewTransaction(TransactionHelper.java:74) [hibernate-core-3.3.0.SP1.jar:3.3.0.SP1]
+	at org.hibernate.id.TableGenerator.generate(TableGenerator.java:118) [hibernate-core-3.3.0.SP1.jar:3.3.0.SP1]
+	at org.hibernate.id.TableHiLoGenerator.generate(TableHiLoGenerator.java:84) [hibernate-core-3.3.0.SP1.jar:3.3.0.SP1]
+	at org.hibernate.event.def.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:122) [hibernate-core-3.3.0.SP1.jar:3.3.0.SP1]
+	at org.hibernate.ejb.event.EJB3PersistEventListener.saveWithGeneratedId(EJB3PersistEventListener.java:49) [hibernate-entitymanager-3.4.0.GA.jar:3.4.0.GA]
+	at org.hibernate.event.def.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:154) [hibernate-core-3.3.0.SP1.jar:3.3.0.SP1]
+	at org.hibernate.event.def.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:110) [hibernate-core-3.3.0.SP1.jar:3.3.0.SP1]
+	at org.hibernate.event.def.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:61) [hibernate-core-3.3.0.SP1.jar:3.3.0.SP1]
+	at org.hibernate.impl.SessionImpl.firePersist(SessionImpl.java:645) [hibernate-core-3.3.0.SP1.jar:3.3.0.SP1]
+	at org.hibernate.impl.SessionImpl.persist(SessionImpl.java:619) [hibernate-core-3.3.0.SP1.jar:3.3.0.SP1]
+	at org.hibernate.impl.SessionImpl.persist(SessionImpl.java:623) [hibernate-core-3.3.0.SP1.jar:3.3.0.SP1]
+	at org.hibernate.ejb.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:220) [hibernate-entitymanager-3.4.0.GA.jar:3.4.0.GA]
+	at com.dipockdas.model.TestJPAWeb.save_stuff(TestJPAWeb.scala:62) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.6.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[na:1.6.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[na:1.6.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:597) ~[na:1.6.0_65]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44) [junit-4.7.jar:na]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15) [junit-4.7.jar:na]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41) [junit-4.7.jar:na]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20) [junit-4.7.jar:na]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28) [junit-4.7.jar:na]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31) [junit-4.7.jar:na]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76) [junit-4.7.jar:na]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50) [junit-4.7.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193) [junit-4.7.jar:na]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52) [junit-4.7.jar:na]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191) [junit-4.7.jar:na]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42) [junit-4.7.jar:na]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184) [junit-4.7.jar:na]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236) [junit-4.7.jar:na]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112) [surefire-junit4-2.12.4.jar:2.12.4]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.6.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[na:1.6.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[na:1.6.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:597) ~[na:1.6.0_65]
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189) [surefire-api-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75) [surefire-booter-2.12.4.jar:2.12.4]
+23:47:24.937 [main] WARN  o.h.util.JDBCExceptionReporter - SQL Warning: 10000, SQLState: 01J01
+23:47:24.938 [main] WARN  o.h.util.JDBCExceptionReporter - Database 'lift_example' not created, connection made to existing database instead.
+23:47:24.938 [main] DEBUG org.hibernate.id.TableHiLoGenerator - new hi value: 2
+23:47:24.938 [main] DEBUG o.h.e.def.AbstractSaveEventListener - generated identifier: 65536, using strategy: org.hibernate.id.TableHiLoGenerator
+23:47:24.954 [main] DEBUG org.hibernate.jdbc.AbstractBatcher - opening JDBC connection
+23:47:24.954 [main] DEBUG org.hibernate.SQL - select next_hi from hibernate_unique_key for read only with rs
+23:47:24.955 [main] DEBUG org.hibernate.SQL - update hibernate_unique_key set next_hi = ? where next_hi = ?
+23:47:24.956 [main] DEBUG org.hibernate.jdbc.AbstractBatcher - closing JDBC connection (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)
+23:47:24.956 [main] DEBUG org.hibernate.id.TableHiLoGenerator - new hi value: 3
+23:47:24.956 [main] DEBUG o.h.e.def.AbstractSaveEventListener - generated identifier: 98304, using strategy: org.hibernate.id.TableHiLoGenerator
+23:47:24.956 [main] DEBUG o.h.transaction.JDBCTransaction - commit
+23:47:24.957 [main] DEBUG o.h.e.d.AbstractFlushingEventListener - processing flush-time cascades
+23:47:24.957 [main] DEBUG o.h.e.d.AbstractFlushingEventListener - dirty checking collections
+23:47:24.960 [main] DEBUG org.hibernate.engine.Collections - Collection found: [com.dipockdas.model.Author.books#65536], was: [<unreferenced>] (initialized)
+23:47:24.962 [main] DEBUG o.h.e.d.AbstractFlushingEventListener - Flushed: 2 insertions, 0 updates, 0 deletions to 2 objects
+23:47:24.962 [main] DEBUG o.h.e.d.AbstractFlushingEventListener - Flushed: 1 (re)creations, 0 updates, 0 removals to 1 collections
+23:47:24.963 [main] DEBUG org.hibernate.pretty.Printer - listing entities:
+23:47:24.964 [main] DEBUG org.hibernate.pretty.Printer - com.dipockdas.model.Book{genre=Mystery, id=98304, author=com.dipockdas.model.Author#65536, title=Huh?, published=21 June 2014}
+23:47:24.964 [main] DEBUG org.hibernate.pretty.Printer - com.dipockdas.model.Author{id=65536, books=[], name=Chuck}
+23:47:24.966 [main] DEBUG org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+23:47:24.967 [main] DEBUG org.hibernate.SQL - insert into Author (name, id) values (?, ?)
+Hibernate: insert into Author (name, id) values (?, ?)
+23:47:24.982 [main] DEBUG org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+23:47:24.983 [main] DEBUG org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+23:47:24.983 [main] DEBUG org.hibernate.SQL - insert into Book (author_id, genre, published, title, id) values (?, ?, ?, ?, ?)
+Hibernate: insert into Book (author_id, genre, published, title, id) values (?, ?, ?, ?, ?)
+23:47:25.001 [main] DEBUG org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+23:47:25.003 [main] DEBUG o.h.transaction.JDBCTransaction - re-enabling autocommit
+23:47:25.003 [main] DEBUG o.h.transaction.JDBCTransaction - committed JDBC Connection
+23:47:25.003 [main] DEBUG org.hibernate.jdbc.ConnectionManager - aggressively releasing JDBC connection
+23:47:25.003 [main] DEBUG org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+23:47:25.005 [main] DEBUG org.hibernate.impl.SessionImpl - opened session at timestamp: 14034196450
+23:47:25.014 [main] DEBUG org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+23:47:25.015 [main] DEBUG org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+23:47:25.015 [main] DEBUG org.hibernate.SQL - select book0_.id as id1_, book0_.author_id as author5_1_, book0_.genre as genre1_, book0_.published as published1_, book0_.title as title1_ from Book book0_ order by book0_.title
+Hibernate: select book0_.id as id1_, book0_.author_id as author5_1_, book0_.genre as genre1_, book0_.published as published1_, book0_.title as title1_ from Book book0_ order by book0_.title
+23:47:25.020 [main] DEBUG org.hibernate.jdbc.AbstractBatcher - about to open ResultSet (open ResultSets: 0, globally: 0)
+23:47:25.020 [main] DEBUG org.hibernate.loader.Loader - result row: EntityKey[com.dipockdas.model.Book#98304]
+23:47:25.071 [main] DEBUG org.hibernate.jdbc.AbstractBatcher - about to close ResultSet (open ResultSets: 1, globally: 1)
+23:47:25.071 [main] DEBUG org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+23:47:25.071 [main] DEBUG org.hibernate.jdbc.ConnectionManager - aggressively releasing JDBC connection
+23:47:25.071 [main] DEBUG org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+23:47:25.072 [main] DEBUG org.hibernate.engine.TwoPhaseLoad - resolving associations for [com.dipockdas.model.Book#98304]
+23:47:25.073 [main] DEBUG org.hibernate.loader.Loader - loading entity: [com.dipockdas.model.Author#65536]
+23:47:25.073 [main] DEBUG org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+23:47:25.073 [main] DEBUG org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+23:47:25.073 [main] DEBUG org.hibernate.SQL - select author0_.id as id0_0_, author0_.name as name0_0_ from Author author0_ where author0_.id=?
+Hibernate: select author0_.id as id0_0_, author0_.name as name0_0_ from Author author0_ where author0_.id=?
+23:47:25.078 [main] DEBUG org.hibernate.jdbc.AbstractBatcher - about to open ResultSet (open ResultSets: 0, globally: 0)
+23:47:25.079 [main] DEBUG org.hibernate.loader.Loader - result row: EntityKey[com.dipockdas.model.Author#65536]
+23:47:25.079 [main] DEBUG org.hibernate.jdbc.AbstractBatcher - about to close ResultSet (open ResultSets: 1, globally: 1)
+23:47:25.079 [main] DEBUG org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+23:47:25.079 [main] DEBUG org.hibernate.jdbc.ConnectionManager - aggressively releasing JDBC connection
+23:47:25.079 [main] DEBUG org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+23:47:25.080 [main] DEBUG org.hibernate.engine.TwoPhaseLoad - resolving associations for [com.dipockdas.model.Author#65536]
+23:47:25.081 [main] DEBUG org.hibernate.engine.TwoPhaseLoad - done materializing entity [com.dipockdas.model.Author#65536]
+23:47:25.081 [main] DEBUG org.hibernate.loader.Loader - done entity load
+23:47:25.081 [main] DEBUG org.hibernate.engine.TwoPhaseLoad - done materializing entity [com.dipockdas.model.Book#98304]
+23:47:25.081 [main] DEBUG o.h.e.StatefulPersistenceContext - initializing non-lazy collections
+23:47:25.081 [main] DEBUG org.hibernate.jdbc.ConnectionManager - aggressively releasing JDBC connection
+Found Huh?
+23:47:25.088 [main] DEBUG o.h.transaction.JDBCTransaction - begin
+23:47:25.088 [main] DEBUG org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+23:47:25.088 [main] DEBUG o.h.transaction.JDBCTransaction - current autocommit status: true
+23:47:25.088 [main] DEBUG o.h.transaction.JDBCTransaction - disabling autocommit
+23:47:25.090 [main] DEBUG o.h.transaction.JDBCTransaction - commit
+23:47:25.090 [main] DEBUG o.h.e.d.AbstractFlushingEventListener - processing flush-time cascades
+23:47:25.090 [main] DEBUG o.h.e.d.AbstractFlushingEventListener - dirty checking collections
+23:47:25.091 [main] DEBUG org.hibernate.engine.Collections - Collection dereferenced: [com.dipockdas.model.Author.books#65536]
+23:47:25.092 [main] DEBUG o.h.e.d.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 2 deletions to 2 objects
+23:47:25.092 [main] DEBUG o.h.e.d.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 1 removals to 1 collections
+23:47:25.092 [main] DEBUG org.hibernate.pretty.Printer - listing entities:
+23:47:25.092 [main] DEBUG org.hibernate.pretty.Printer - com.dipockdas.model.Book{genre=Mystery, id=98304, author=com.dipockdas.model.Author#65536, title=Huh?, published=21 June 2014}
+23:47:25.092 [main] DEBUG org.hibernate.pretty.Printer - com.dipockdas.model.Author{id=65536, books=<uninitialized>, name=Chuck}
+23:47:25.092 [main] DEBUG org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+23:47:25.092 [main] DEBUG org.hibernate.SQL - delete from Book where id=?
+Hibernate: delete from Book where id=?
+23:47:25.108 [main] DEBUG org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+23:47:25.108 [main] DEBUG org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+23:47:25.108 [main] DEBUG org.hibernate.SQL - delete from Author where id=?
+Hibernate: delete from Author where id=?
+23:47:25.115 [main] DEBUG org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+23:47:25.115 [main] DEBUG o.h.transaction.JDBCTransaction - re-enabling autocommit
+23:47:25.116 [main] DEBUG o.h.transaction.JDBCTransaction - committed JDBC Connection
+23:47:25.116 [main] DEBUG org.hibernate.jdbc.ConnectionManager - aggressively releasing JDBC connection
+23:47:25.116 [main] DEBUG org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+23:47:25.116 [main] INFO  o.hibernate.impl.SessionFactoryImpl - closing
+23:47:25.116 [main] INFO  o.h.c.DriverManagerConnectionProvider - cleaning up connection pool: jdbc:derby:lift_example;create=true
